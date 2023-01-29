@@ -2,7 +2,7 @@
 
 [![license mit](https://img.shields.io/github/license/Luc4sf/Coursera)](https://github.com/Luc4sf/Coursera/blob/main/LICENSE.md)
 
-> :rocket: Projeto de criação de Jogos
+> :rocket: Projeto de criação de Jogos, iniciado com um curso realizado na plataforma Coursera
 
 ## Versioning
 
