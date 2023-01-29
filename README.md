@@ -2,7 +2,7 @@
 
 [![license mit](https://img.shields.io/github/license/Luc4sf/Coursera)](https://github.com/Luc4sf/Coursera/blob/main/LICENSE.md)
 
-> :rocket: Projeto com o objetivo de criar um site de vídeos, chamado AluraTube
+> :rocket: Projeto de criação de Jogos
 
 ## Versioning
 
