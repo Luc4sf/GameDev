@@ -1,4 +1,4 @@
-# Imersão React - Alura
+# Página de jogos
 
 [![license mit](https://img.shields.io/github/license/Luc4sf/Coursera)](https://github.com/Luc4sf/Coursera/blob/main/LICENSE.md)
 
