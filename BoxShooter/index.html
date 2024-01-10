@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Box Shooter</title>
+    <title>Box Shooter</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
@@ -11,15 +12,132 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
     </script>
+    
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
   </head>
+
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 900px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Box Shooter</div>
-      </div>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        
+        <div class="header__image">
+          
+          <p style="background-image: url('assets/img/header.jpg');" alt="image" class="header__img"></p>
+        </div>
+    </header>
+    
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      
+      <section class="game section" id="game">
+    
+        <div class="webgl-content section">
+          <div id="gameContainer" style="width: 960px; height: 600px"></div>
+          <div class="unity-footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title">Box Shooter</div>
+          </div>
+        </div>
+      </section>
+
+
+
+  <!--==================== LIST OF GAMES ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+           <span>Games</span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+               <a href="https://luc4sf.github.io/GameDev/BoxShooter/">
+                 <div class="projects__image">
+                    <img src="assets/img/boxShooter.png" alt="image" class="projects__img">
+                 </div>
+
+                 <div class="projects__content">
+                    <h2 class="projects__title">Box Shooter</h2>
+
+                    <p class="projects__description">
+                       Project made as part of the game development course from coursera
+                    </p>
+                 </div>
+
+                 <div class="projects__buttons">
+                    <a href="https://github.com/Luc4sf/GameDev/tree/6e56f87b07e3e0bcac3688f1176e45ce5a2f9afb/BoxShooter" target="_blank" class="projects__link">
+                       <i class="ri-github-line"></i> View
+                    </a>
+
+                 </div>
+              </a>
+           </article>
+           <article class="projects__card">
+               <a href="https://luc4sf.github.io/GameDev/RollerMadness/">
+                 <div class="projects__image">
+                    <img src="assets/img/rollerMadness.png" alt="image" class="projects__img">
+                 </div>
+
+                 <div class="projects__content">
+                    <h2 class="projects__title">Roller Madness</h2>
+
+                    <p class="projects__description">
+                       Project made as part of the game development course from coursera
+                    </p>
+                 </div>
+
+                 <div class="projects__buttons">
+                    <a href="https://github.com/Luc4sf/GameDev/tree/6e56f87b07e3e0bcac3688f1176e45ce5a2f9afb/RollerMadness" target="_blank" class="projects__link">
+                       <i class="ri-github-line"></i> View
+                    </a>
+                 </div>
+              </a>
+           </article>
+
+           <article class="projects__card">
+               <a href="https://luc4sf.github.io/GameDev/BlockRunner/">
+                 <div class="projects__image">
+                    <img src="assets/img/blockRunner.png" alt="image" class="projects__img">
+                 </div>
+
+                 <div class="projects__content">
+                    <h2 class="projects__title">Block Runner</h2>
+
+                    <p class="projects__description">
+                       Project made in a youtube course. (brackets?)
+                    </p>
+                 </div>
+
+                 <div class="projects__buttons">
+                    <a href="https://github.com/Luc4sf/GameDev/tree/6e56f87b07e3e0bcac3688f1176e45ce5a2f9afb/BlockRunner" target="_blank" class="projects__link">
+                       <i class="ri-github-line"></i> View
+                    </a>
+                 </div>
+              </a>
+           </article>
+
+        </div>
+     </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+
+       <span class="footer__copy">
+         &#169; All Rights Reserved By
+            <a href="https://github.com/Luc4sf" target="_blank">Lucas Faganello.</a>
+       </span>
     </div>
+
+    
+ </footer>
   </body>
 </html>

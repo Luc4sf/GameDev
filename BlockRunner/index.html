@@ -3,26 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | EndlessRunner</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <title>EndlessRunner</title>
+    
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    
+    <!--=============== CSS ===============-->
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
   </head>
+  
+
   <body>
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        
+        <div class="header__image">
+          
+          <p style="background-image: url('assets/img/header.jpg');" alt="image" class="header__img"></p>
         </div>
-      </div>
-      <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">EndlessRunner</div>
-      </div>
-    </div>
+    </header>
+    
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      
+      <section class="game section" id="game">
+    
+
+        <div id="unity-container" class="unity-desktop section">
+          <canvas id="unity-canvas" width=960 height=600></canvas>
+          <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+              <div id="unity-progress-bar-full"></div>
+            </div>
+          </div>
+          <div id="unity-warning"> </div>
+          <div id="unity-footer">
+            <div id="unity-webgl-logo"></div>
+            <div id="unity-fullscreen-button"></div>
+            <div id="unity-build-title">EndlessRunner</div>
+          </div>
+        </div>
+      </section>
+
+
+
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -115,5 +143,95 @@
       };
       document.body.appendChild(script);
     </script>
-  </body>
-</html>
+
+  <!--==================== LIST OF GAMES ====================-->
+      <section class="projects section" id="projects">
+         <h2 class="section__title-1">
+            <span>Games</span>
+         </h2>
+ 
+         <div class="projects__container container grid">
+           <article class="projects__card">
+                <a href="https://luc4sf.github.io/GameDev/BoxShooter/">
+                  <div class="projects__image">
+                     <img src="assets/img/boxShooter.png" alt="image" class="projects__img">
+                  </div>
+ 
+                  <div class="projects__content">
+                     <h2 class="projects__title">Box Shooter</h2>
+ 
+                     <p class="projects__description">
+                        Project made as part of the game development course from coursera
+                     </p>
+                  </div>
+ 
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Luc4sf/GameDev/tree/6e56f87b07e3e0bcac3688f1176e45ce5a2f9afb/BoxShooter" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+ 
+                  </div>
+               </a>
+            </article>
+            <article class="projects__card">
+                <a href="https://luc4sf.github.io/GameDev/RollerMadness/">
+                  <div class="projects__image">
+                     <img src="assets/img/rollerMadness.png" alt="image" class="projects__img">
+                  </div>
+ 
+                  <div class="projects__content">
+                     <h2 class="projects__title">Roller Madness</h2>
+ 
+                     <p class="projects__description">
+                        Project made as part of the game development course from coursera
+                     </p>
+                  </div>
+ 
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Luc4sf/GameDev/tree/6e56f87b07e3e0bcac3688f1176e45ce5a2f9afb/RollerMadness" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </a>
+            </article>
+ 
+            <article class="projects__card">
+                <a href="https://luc4sf.github.io/GameDev/BlockRunner/">
+                  <div class="projects__image">
+                     <img src="assets/img/blockRunner.png" alt="image" class="projects__img">
+                  </div>
+ 
+                  <div class="projects__content">
+                     <h2 class="projects__title">Block Runner</h2>
+ 
+                     <p class="projects__description">
+                        Project made in a youtube course. (brackets?)
+                     </p>
+                  </div>
+ 
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Luc4sf/GameDev/tree/6e56f87b07e3e0bcac3688f1176e45ce5a2f9afb/BlockRunner" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </a>
+            </article>
+ 
+         </div>
+      </section>
+   </main>
+ 
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+     <div class="footer__container container grid">
+ 
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+             <a href="https://github.com/Luc4sf" target="_blank">Lucas Faganello.</a>
+        </span>
+     </div>
+ 
+     
+  </footer>
+   </body>
+ </html>
