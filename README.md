@@ -1,6 +1,6 @@
 # Página de jogos
 
-[![license mit](https://img.shields.io/github/license/Luc4sf/Coursera)](https://github.com/Luc4sf/Coursera/blob/main/LICENSE.md)
+[![license mit](https://img.shields.io/github/license/Luc4sf/GameDev)](https://github.com/Luc4sf/GameDev/blob/main/LICENSE.md)
 
 > :rocket: Projeto de criação de Jogos, iniciado com um curso realizado na plataforma Coursera
 
@@ -24,4 +24,4 @@ See [Releases](https://github.com/Luc4sf/Alura/releases) for detailed changelog.
 -->
 
 ## License
-[MIT License](https://github.com/Luc4sf/Coursera/blob/main/LICENSE.md) © Lucas Faganello Silva
+[MIT License](https://github.com/Luc4sf/GameDev/blob/main/LICENSE.md) © Lucas Faganello Silva
